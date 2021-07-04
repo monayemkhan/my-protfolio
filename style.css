@@ -5,9 +5,9 @@
 body{
     font-family: 'Poppins', sans-serif;
 }
-section{
+.flexible-container{
     display: flex;
-    margin-bottom: 40px;
+    margin-bottom: 5%;
 
 }
 
@@ -15,9 +15,10 @@ h1{
     font-size: 55px;
     font-size: bold;
     margin-bottom: 20px;
+    display: block;
 }
 h2{
-    font-size: 40px;
+    font-size: 45px;
     font-weight: bold;
     margin-bottom: 45px;
 }
@@ -57,4 +58,25 @@ h3{
     background-position: 100% 100%;
     background-origin: 40px;
     padding: 20px;
+}
+.exp-width{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 15px;
+    box-shadow: 10px 10px 40px gray;
+}
+.exp-width h2{
+    font-size: 34px;
+    font-weight: 900;
+}
+.exp-width .name-color{
+    color: orange;
+}
+.exp-bg h1{
+    font-size: 45px;
+    font-weight: bold;
+}
+.exp-bg p{
+    margin-bottom: 50px;
 }
