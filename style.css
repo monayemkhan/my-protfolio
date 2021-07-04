@@ -7,14 +7,22 @@ body{
 }
 section{
     display: flex;
+    margin-bottom: 40px;
+
 }
 
 h1{
-    font-size: 60px;
+    font-size: 55px;
     font-size: bold;
+    margin-bottom: 20px;
 }
 h2{
-    font-size: 50px;
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 45px;
+}
+h3{
+    margin-bottom: 15px;
 }
 .name-color span{
     color: orange;
@@ -26,13 +34,14 @@ h2{
 }
 
 .img-size{
-    width: 80%;
+    width: 85%;
 }
 .link-here{
     text-decoration: none;
     padding: 10px 30px;
     background-image: linear-gradient(to right, green , yellowgreen);
     border-radius: 5px;
+    color: white;
 }
 .bg-img{
     background-image: url(images/top-banner.png);
@@ -40,5 +49,12 @@ h2{
     background-size: cover;
 }
 .para-graph{
-    margin-bottom: 20px;
+    margin-bottom: 30px;
+}
+.dream-bg{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
+    background-origin: 40px;
+    padding: 20px;
 }
