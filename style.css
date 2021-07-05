@@ -63,7 +63,7 @@ h3{
     width: 40%;
     margin-left: 5%;
     margin-right: 5%;
-    padding: 15px;
+    padding: 20px;
     box-shadow: 10px 10px 40px gray;
 }
 .exp-width h2{
@@ -79,4 +79,23 @@ h3{
 }
 .exp-bg p{
     margin-bottom: 50px;
+}
+.exp-bg{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#full-stack{
+    border-left: 10px solid;
+    border-image-slice: 1;
+    border-image: linear-gradient(red, blue) 20;
+    border-radius: 5px;
+}
+#baby-web{
+    border-left: 10px solid;
+    border-image-slice: 1;
+    border-image: linear-gradient(blue, red) 20;
+}
+.fotter-sec{
+    text-align: center;
 }
