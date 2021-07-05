@@ -8,7 +8,6 @@ body{
 .flexible-container{
     display: flex;
     margin-bottom: 5%;
-
 }
 
 h1{
@@ -98,4 +97,9 @@ h3{
 }
 .fotter-sec{
     text-align: center;
+    margin-top: 13%;
+    margin-bottom: 1%;
+}
+p{
+    color: dimgray;
 }
